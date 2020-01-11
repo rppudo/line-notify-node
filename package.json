@@ -1,0 +1,25 @@
+{
+  "name": "line-notify",
+  "version": "0.1.0",
+  "description": "The simple library to use LINE Notify for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rppudo/line-notify-node.git"
+  },
+  "homepage": "https://github.com/rppudo/line-notify-node",
+  "keywords": [
+    "line-notify"
+  ],
+  "author": "Rapipat Udomgun <rapipat.udo@gmail.com> (https://github.com/rppudo)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/.",
+    "lint:fix": "yarn lint --fix"
+  }
+}
